@@ -14,13 +14,17 @@ const Header = () => {
     }
   };
 
+  const handleRegister = () => {
+    window.open('https://forms.gle/Ueje9xbkn3SB23Kc7', '_blank');
+  };
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <h1 className="text-2xl font-bold text-gradient">Open Spaces Chennai</h1>
-            <span className="text-sm text-muted-foreground">Design Competition</span>
+            <h1 className="text-2xl font-bold text-gradient">CMA Open Spaces</h1>
+            <span className="text-sm text-muted-foreground">Competition</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -55,7 +59,10 @@ const Header = () => {
             >
               Submit
             </button>
-            <Button className="bg-secondary text-secondary-foreground hover:bg-secondary/90">
+            <Button 
+              onClick={handleRegister}
+              className="bg-secondary text-secondary-foreground hover:bg-secondary/90"
+            >
               Register Now
             </Button>
           </nav>
@@ -103,7 +110,10 @@ const Header = () => {
               >
                 Submit
               </button>
-              <Button className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90">
+              <Button 
+                onClick={handleRegister}
+                className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90"
+              >
                 Register Now
               </Button>
             </div>

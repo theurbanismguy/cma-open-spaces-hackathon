@@ -10,16 +10,33 @@ const HeroSection = () => {
     }
   };
 
+  const handleRegister = () => {
+    window.open('https://forms.gle/Ueje9xbkn3SB23Kc7', '_blank');
+  };
+
   return (
-    <section className="min-h-screen gradient-bg flex items-center justify-center relative overflow-hidden">
-      <div className="absolute inset-0 bg-black/10"></div>
+    <section className="min-h-screen relative flex items-center justify-center overflow-hidden">
+      {/* Parallax Background */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-fixed"
+        style={{
+          backgroundImage: `url('/lovable-uploads/d3af2685-3613-4420-8b04-d7b30808f0d0.png')`,
+          transform: 'translateZ(0)',
+        }}
+      />
+      
+      {/* Gradient Overlay */}
+      <div className="absolute inset-0 gradient-bg opacity-90"></div>
+      <div className="absolute inset-0 bg-black/20"></div>
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-7xl font-bold text-secondary mb-6 leading-tight">
-            Open Spaces
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-secondary mb-6 leading-tight">
+            Chennai Metropolitan Area
             <br />
-            <span className="text-secondary/80">Chennai</span>
+            <span className="text-secondary/80">Open Spaces</span>
+            <br />
+            <span className="text-3xl md:text-4xl lg:text-5xl">Competition</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-secondary/80 mb-8 max-w-2xl mx-auto">
@@ -44,6 +61,7 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               size="lg" 
+              onClick={handleRegister}
               className="bg-secondary text-secondary-foreground hover:bg-secondary/90 text-lg px-8 py-3"
             >
               Register Your Team
