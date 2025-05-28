@@ -59,6 +59,12 @@ const Header = () => {
             >
               Submit
             </button>
+            <button 
+              onClick={() => scrollToSection('awards')} 
+              className="text-foreground hover:text-primary transition-colors"
+            >
+              Awards
+            </button>
             <Button 
               onClick={handleRegister}
               className="bg-secondary text-secondary-foreground hover:bg-secondary/90"
@@ -109,6 +115,12 @@ const Header = () => {
                 className="text-left text-foreground hover:text-primary transition-colors"
               >
                 Submit
+              </button>
+              <button 
+                onClick={() => scrollToSection('awards')} 
+                className="text-left text-foreground hover:text-primary transition-colors"
+              >
+                Awards
               </button>
               <Button 
                 onClick={handleRegister}
