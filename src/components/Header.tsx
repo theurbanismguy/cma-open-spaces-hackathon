@@ -24,7 +24,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <h1 className="text-2xl font-bold text-gradient">CMA Open Spaces</h1>
-            <span className="text-sm text-muted-foreground">Competition</span>
+            <span className="text-sm text-muted-foreground">Hackathon</span>
           </div>
 
           {/* Desktop Navigation */}

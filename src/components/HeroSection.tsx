@@ -36,11 +36,11 @@ const HeroSection = () => {
             <br />
             <span className="text-secondary/80">Open Spaces</span>
             <br />
-            <span className="text-3xl md:text-4xl lg:text-5xl">Competition</span>
+            <span className="text-3xl md:text-4xl lg:text-5xl">Hackathon</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-secondary/80 mb-8 max-w-2xl mx-auto">
-            Third Master Plan Design Competition for Chennai's Future Open Spaces
+            Third Master Plan Design Hackathon for Chennai's Future Open Spaces
           </p>
           
           <div className="flex flex-wrap justify-center gap-4 mb-12">

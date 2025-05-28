@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from '@/components/ui/card';
 import { Calendar, Clock, CheckCircle, AlertCircle } from 'lucide-react';
 
@@ -66,12 +65,12 @@ const TimelineSection = () => {
               Timeline
             </h2>
             <p className="text-lg text-muted-foreground">
-              Key dates and milestones for the competition
+              Key dates and milestones for the hackathon
             </p>
           </div>
 
           <div className="mb-16">
-            <h3 className="text-2xl font-semibold text-secondary mb-8 text-center">Competition Overview</h3>
+            <h3 className="text-2xl font-semibold text-secondary mb-8 text-center">Hackathon Overview</h3>
             <div className="space-y-4">
               {timelineEvents.map((item, index) => (
                 <Card key={index} className={`border-0 shadow-sm ${getStatusColor(item.status)}`}>

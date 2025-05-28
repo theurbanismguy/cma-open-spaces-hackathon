@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold mb-4">About the Competition</h3>
+              <h3 className="text-xl font-semibold mb-4">About the Hackathon</h3>
               <p className="text-sm">
                 Part of Chennai's Third Master Plan development process, focusing on creating 
                 sustainable, inclusive, and resilient open spaces for the city's future.
@@ -42,11 +42,11 @@ const Footer = () => {
 
           <div className="border-t border-secondary-foreground/20 pt-8 text-center">
             <p className="text-sm opacity-80">
-              © 2024 Chennai Metropolitan Development Authority (CMDA) Open Spaces Design Competition. 
+              © 2024 Chennai Metropolitan Development Authority (CMDA) Open Spaces Design Hackathon. 
               All rights reserved.
             </p>
             <p className="text-xs opacity-60 mt-2">
-              Competition organized in collaboration with designated partners (Sponge Collaborative, PosadMaxwan)
+              Hackathon organized in collaboration with designated partners (Sponge Collaborative, PosadMaxwan)
             </p>
           </div>
         </div>
