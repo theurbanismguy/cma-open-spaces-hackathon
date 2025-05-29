@@ -1,73 +1,97 @@
-# Welcome to your Lovable project
+# 🌿 CMA Open Spaces Hackathon
 
-## Project info
+The **CMA Open Spaces Hackathon** is a fast-paced, three-day design competition aimed at reimagining and revitalizing open spaces in the **Chennai Metropolitan Area (CMA)**. It brings together multidisciplinary teams to develop **creative, context-specific, and implementable design concepts** addressing the critical challenges and opportunities of Chennai's open space network.
 
-**URL**: https://lovable.dev/projects/85fb112e-364c-4a75-b380-62c119df4c73
+---
 
-## How can I edit this code?
+## 📅 Timeline
 
-There are several ways of editing your application.
+- **May 30th:** Registration opens  
+- **June 10th:** Deadline for questions  
+- **June 11th:** Registration closes  
+- **June 12th:** Site packages released & Q&A published  
+- **June 13th:** Webinar ("Get Inspired")  
+- **June 14–15th:** Hackathon  
+- **June 15th 23:59:** Submission deadline  
+- **Week 26:** Announcement of winner
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/85fb112e-364c-4a75-b380-62c119df4c73) and start prompting.
+## 🏆 Structure
 
-Changes made via Lovable will be committed automatically to this repo.
+- **June 13th (Friday):** Introduction, webinars, and Q&A with the organizing team  
+- **June 14th (Saturday):** Workblock sessions with optional Q&A  
+- **June 15th (Sunday):** Design finalization, submission by 23:59
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ✏️ Deliverables
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **6 slides** (landscape format)  
+  - Site analysis, concept articulation, diagrams, and visuals
+- **1 A4 word document**  
+  - Narrative summarizing the idea, interventions, and expected impact
 
-Follow these steps:
+**Format:** PDF (Max size: 25MB)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 👥 Eligibility
 
-# Step 3: Install the necessary dependencies.
-npm i
+- Open to **Bachelor/Masters students** (Architecture, Planning, Landscape, Urban Design, etc.)  
+- **Design professionals** with experience in public/urban spaces  
+- **General public** above 18 years (including community groups, activists, artists, and writers with strong ideas)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 📝 Submission Process
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1. Register at **[cmaopenspaces.com](https://cmaopenspaces.com)** by June 11th.
+2. Receive site details & unique Team ID on June 12th.
+3. Develop proposals from June 13–15.
+4. Submit entries on the website before **23:59 June 15th**.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🔍 Evaluation Criteria
 
-## What technologies are used for this project?
+- **Context Understanding (20%)**  
+- **Design Concept & Originality (30%)**  
+- **Alignment with Principles (30%)**  
+- **Feasibility & Communicability (20%)**
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🎖️ Awards & Jury
 
-## How can I deploy this project?
+- One winning entry per site.
+- Winners/shortlists featured in a public online exhibition and publications.
+- Winning teams may be invited to present to Chennai's Open Space Strategy team and officials.
 
-Simply open [Lovable](https://lovable.dev/projects/85fb112e-364c-4a75-b380-62c119df4c73) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 📚 Key Themes
 
-Yes, you can!
+- Resilient & connected green-blue networks
+- Context-sensitive and implementable designs
+- Integration with Chennai's **Open Space Strategy** and **Third Master Plan**
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 📧 Contact
+
+For queries, email: **info@cmaopenspaces.com**  
+All questions & answers will be collated and published on the competition website.
+
+---
+
+## 📜 Rules Snapshot
+
+- Language: English/Tamil  
+- Intellectual Property: Participants retain rights but grant **CMDA** and partners a non-exclusive, royalty-free license for non-commercial use.  
+- Submissions judged anonymously—use only Team ID.  
+- Disqualification for plagiarism, rule violations, or missing deadlines.
+
+---
+
+_Join us in shaping a more sustainable, inclusive, and resilient Chennai! 🌱_
