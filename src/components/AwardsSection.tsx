@@ -98,7 +98,7 @@ const AwardsSection = () => {
                   <Trophy className="h-8 w-8 text-primary mr-3" />
                   <h3 className="text-xl font-semibold text-secondary">Total Prize Pool</h3>
                 </div>
-                <div className="text-3xl font-bold text-primary mb-2">₹1,00,000 per site</div>
+                <div className="text-3xl font-bold text-primary mb-2">₹7,00,000</div>
                 <p className="text-muted-foreground max-w-2xl">
                   Beyond monetary awards, this hackathon offers participants the unique opportunity to contribute 
                   directly to Chennai's urban planning future and have their innovative ideas potentially 
