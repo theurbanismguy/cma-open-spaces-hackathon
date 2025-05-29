@@ -1,13 +1,13 @@
 
 import { Card, CardContent } from '@/components/ui/card';
-import { Trophy, Users, Star, Award } from 'lucide-react';
+import { Trophy, Users, Star, Award, IndianRupee } from 'lucide-react';
 
 const AwardsSection = () => {
   const awards = [
     {
-      title: "One winning entry per site will be awarded",
-      description: "Recognition for the best design proposal for each designated site location.",
-      icon: Trophy
+      title: "₹1,00,000 Prize Money per Site",
+      description: "One winning entry per site will be awarded ₹1,00,000 INR prize money and will receive the assignment to develop their proposal into a detailed design.",
+      icon: IndianRupee
     },
     {
       title: "Public Online Exhibition",
@@ -15,8 +15,8 @@ const AwardsSection = () => {
       icon: Star
     },
     {
-      title: "Strategy Development Opportunity",
-      description: "Winning teams (First Prize) may be invited to present and discuss their ideas further with the design team of the Open Space Strategy and city officials, contributing directly to the next phase of the strategy development.",
+      title: "Design Development Assignment",
+      description: "Winning teams (First Prize) will be invited to present and discuss their ideas further with the design team of the Open Space Strategy and city officials, and will receive the assignment to develop their proposal into a detailed design.",
       icon: Award
     }
   ];
@@ -95,13 +95,14 @@ const AwardsSection = () => {
             <Card className="border-0 shadow-lg bg-gradient-to-r from-primary/5 to-secondary/5 inline-block">
               <CardContent className="p-8">
                 <div className="flex items-center justify-center mb-4">
-                  <Star className="h-8 w-8 text-primary mr-3" />
-                  <h3 className="text-xl font-semibold text-secondary">Recognition Beyond Awards</h3>
+                  <Trophy className="h-8 w-8 text-primary mr-3" />
+                  <h3 className="text-xl font-semibold text-secondary">Total Prize Pool</h3>
                 </div>
+                <div className="text-3xl font-bold text-primary mb-2">₹1,00,000 per site</div>
                 <p className="text-muted-foreground max-w-2xl">
-                  Beyond formal awards, this hackathon offers participants the unique opportunity to contribute 
+                  Beyond monetary awards, this hackathon offers participants the unique opportunity to contribute 
                   directly to Chennai's urban planning future and have their innovative ideas potentially 
-                  implemented in the city's Third Master Plan.
+                  implemented in the city's Third Master Plan through detailed design assignments.
                 </p>
               </CardContent>
             </Card>
