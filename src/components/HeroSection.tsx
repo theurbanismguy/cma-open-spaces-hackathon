@@ -20,7 +20,7 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-fixed"
         style={{
-          backgroundImage: `url('/lovable-uploads/d3af2685-3613-4420-8b04-d7b30808f0d0.png')`,
+          backgroundImage: `url('/img/cover.png')`,
           transform: 'translateZ(0)',
         }}
       />
