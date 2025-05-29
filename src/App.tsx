@@ -12,8 +12,8 @@ const queryClient = new QueryClient();
 
 const App = () => {
   useEffect(() => {
-    // GitHub Pages SPA redirect handling
-    // Check if we need to redirect from GitHub Pages SPA redirect
+    // Custom domain SPA redirect handling
+    // Check if we need to redirect from custom domain SPA redirect
     if (window.location.search.includes('/?/')) {
       const redirect = window.location.search.slice(1);
       if (redirect && redirect !== null && redirect !== undefined && redirect !== '') {
@@ -29,7 +29,7 @@ const App = () => {
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter basename="/cma-open-spaces-hackathon">
+        <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
