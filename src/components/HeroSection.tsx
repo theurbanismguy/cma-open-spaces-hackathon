@@ -20,7 +20,7 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-fixed"
         style={{
-          backgroundImage: `url('/img/cover.jpg')`,
+          backgroundImage: `url('/lovable-uploads/d0dd2f7f-ba7d-467b-8a93-cebb43ab648b.png')`,
           transform: 'translateZ(0)',
         }}
       />
@@ -46,7 +46,7 @@ const HeroSection = () => {
           <div className="flex flex-wrap justify-center gap-4 mb-12">
             <div className="flex items-center bg-white/20 backdrop-blur-sm rounded-lg px-4 py-2">
               <Calendar className="h-5 w-5 text-secondary mr-2" />
-              <span className="text-secondary font-medium">June 13-15, 2024</span>
+              <span className="text-secondary font-medium">June 13-15, 2025</span>
             </div>
             <div className="flex items-center bg-white/20 backdrop-blur-sm rounded-lg px-4 py-2">
               <Users className="h-5 w-5 text-secondary mr-2" />

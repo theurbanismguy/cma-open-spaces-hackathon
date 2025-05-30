@@ -1,16 +1,18 @@
+
 import { Card, CardContent } from '@/components/ui/card';
 import { Calendar, Clock, CheckCircle, AlertCircle } from 'lucide-react';
 
 const TimelineSection = () => {
   const timelineEvents = [
-    { date: "May 30th", event: "Registration opens", status: "completed" },
-    { date: "June 10th", event: "Deadline for questions", status: "completed" },
-    { date: "June 11th", event: "Registration closes", status: "completed" },
+    { date: "May 30th", event: "Registration opens", status: "upcoming" },
+    { date: "June 10th", event: "Deadline for questions", status: "upcoming" },
+    { date: "June 11th", event: "Registration closes", status: "upcoming" },
     { date: "June 12th", event: "Site packages released to teams", status: "upcoming" },
     { date: "June 13th", event: "Webinar & Inspiration Day", status: "upcoming" },
     { date: "June 14-15th", event: "Design Hackathon", status: "upcoming" },
     { date: "June 15th (23:59)", event: "Submission Deadline", status: "deadline" },
-    { date: "Week 26", event: "Winner Announcement", status: "upcoming" }
+    { date: "Week 25", event: "Jury delivers results", status: "upcoming" },
+    { date: "End of June", event: "First prize winning teams share detailed designs", status: "upcoming" }
   ];
 
   const fridaySchedule = [
