@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from '@/components/ui/card';
 import { Calendar, Clock, CheckCircle, AlertCircle } from 'lucide-react';
 
@@ -7,7 +6,7 @@ const TimelineSection = () => {
     { date: "May 30th", event: "Registration opens", status: "upcoming" },
     { date: "June 10th", event: "Deadline for questions", status: "upcoming" },
     { date: "June 11th", event: "Registration closes", status: "upcoming" },
-    { date: "June 12th", event: "Site packages released to teams", status: "upcoming" },
+    { date: "June 12th (15:30)", event: "Site packages released to teams", status: "upcoming" },
     { date: "June 13th", event: "Webinar & Inspiration Day", status: "upcoming" },
     { date: "June 14-15th", event: "Design Hackathon", status: "upcoming" },
     { date: "June 15th (23:59)", event: "Submission Deadline", status: "deadline" },
@@ -16,23 +15,20 @@ const TimelineSection = () => {
   ];
 
   const fridaySchedule = [
-    { time: "10:00", activity: "Introduction - Open Spaces in Chennai" },
-    { time: "11:00", activity: "Presentation from PosadMaxwan and Sponge Collaborative (Online via Teams)" },
-    { time: "12:00", activity: "(Optional) Q&A with organising team (Online via Teams)" },
-    { time: "13:00", activity: "Workblock - Site analysis (suggestion)" },
-    { time: "18:00", activity: "Presentation" }
+    { time: "Morning", activity: "Workblock - Site analysis (suggestion)" },
+    { time: "Afternoon", activity: "Workblock - Site analysis (suggestion)" },
+    { time: "15:00", activity: "(optional) Presentation (introduction to sites and the open space strategy)" }
   ];
 
   const saturdaySchedule = [
-    { time: "8:00", activity: "Workblock - Design concept development (suggestion)" },
-    { time: "12:00", activity: "(Optional) Q&A with organising team (Online via Teams)" },
-    { time: "13:00", activity: "Workblock - Design development (suggestion)" }
+    { time: "Morning", activity: "Workblock - First design concepts (suggestion)" },
+    { time: "10:00", activity: "(optional) Presentation (principles and examples)" },
+    { time: "Afternoon", activity: "Workblock - Design frameworks (suggestion)" }
   ];
 
   const sundaySchedule = [
-    { time: "8:00", activity: "Workblock - Finetuning visuals (suggestion)" },
-    { time: "12:00", activity: "(Optional) Q&A with organising team (Online via Teams)" },
-    { time: "13:00", activity: "Workblock - Wrapping up" },
+    { time: "Morning", activity: "Workblock - Visuals of the design (suggestion)" },
+    { time: "Afternoon", activity: "Workblock - Finalising and writing (suggestion)" },
     { time: "23:59", activity: "Deadline", isDeadline: true }
   ];
 
@@ -100,7 +96,7 @@ const TimelineSection = () => {
                 <div className="space-y-3">
                   {fridaySchedule.map((item, index) => (
                     <div key={index} className="flex justify-between items-start">
-                      <span className="text-sm font-medium text-blue-600 min-w-12">{item.time}</span>
+                      <span className="text-sm font-medium text-blue-600 min-w-16">{item.time}</span>
                       <span className="text-sm text-muted-foreground text-right flex-1 ml-3">
                         {item.activity}
                       </span>
@@ -119,7 +115,7 @@ const TimelineSection = () => {
                 <div className="space-y-3">
                   {saturdaySchedule.map((item, index) => (
                     <div key={index} className="flex justify-between items-start">
-                      <span className="text-sm font-medium text-green-600 min-w-12">{item.time}</span>
+                      <span className="text-sm font-medium text-green-600 min-w-16">{item.time}</span>
                       <span className="text-sm text-muted-foreground text-right flex-1 ml-3">
                         {item.activity}
                       </span>
@@ -138,7 +134,7 @@ const TimelineSection = () => {
                 <div className="space-y-3">
                   {sundaySchedule.map((item, index) => (
                     <div key={index} className={`flex justify-between items-start ${item.isDeadline ? 'border-l-4 border-red-500 pl-2' : ''}`}>
-                      <span className={`text-sm font-medium min-w-12 ${item.isDeadline ? 'text-red-600' : 'text-purple-600'}`}>
+                      <span className={`text-sm font-medium min-w-16 ${item.isDeadline ? 'text-red-600' : 'text-purple-600'}`}>
                         {item.time}
                       </span>
                       <span className={`text-sm text-right flex-1 ml-3 ${item.isDeadline ? 'text-red-600 font-semibold' : 'text-muted-foreground'}`}>
